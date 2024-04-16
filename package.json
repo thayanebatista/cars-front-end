@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@storybook/addon-docs": "^6.5.9",
+    "axios": "^1.6.8",
     "vue": "^3.2.16",
     "vue-router": "4"
   },
