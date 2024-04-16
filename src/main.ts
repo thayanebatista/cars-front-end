@@ -1,12 +1,12 @@
-import "@/styles/index.css";
+import '@/styles/index.css';
 
-import { createApp } from "vue";
+import { createApp } from 'vue';
 
-import definePlugins from "@/plugins";
+import definePlugins from '@/plugins';
 
-import App from "./App.vue";
+import App from './App.vue';
 
 const app = createApp(App);
 // Define your plugins inside @/plugins.ts. It is required for storybook support.
 definePlugins(app);
-app.mount("#app");
+app.mount('#app');
